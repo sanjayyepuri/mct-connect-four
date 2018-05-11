@@ -16,7 +16,7 @@ object Hello {
           println()
           println(nextState)
           println(c4State.getLegalActions())
-          println(nextState.state(2)(0))
+          println(nextState.board(2)(0))
      }
 }
 
